@@ -1,51 +1,66 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: "Poppins", sans-serif;
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     background-color: black;
+    color: white;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    max-width:85rem;
+.nav{
+    height: 3rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    margin-left: 2.5rem;
-}
-
-.header ul {
-    display: flex;
-    list-style: none;
-    gap: 5rem;
-    font-size: 1.5rem;
-    
-    
-}
-
-.header li a {
-    list-style: none;
-    text-decoration: none;
-}
-
-.logo {
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-p {
     font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    gap:2rem;
+    position: fixed;
+    background-color: gray;
 }
 
-.parent {
+.about-me{
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2.5rem;
 }
 
+.about-me img{
+    width: 70%;
+}
+
+.left-section{
+    font-size: 25px;
+    padding-top: 20px;
+    width: 30%;
+}
+
+section{
+    height: 100vh;
+}
+
+#education{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 16.5rem;
+}
+
+#skills{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 16.5rem;
+}

@@ -7,34 +7,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;900" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
     <div class="nav" id="myTopnav">
-        <a href="#about-me" class="active">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#project">Project</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#about-me" class="active">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
     </div>
     <div class="container">
         <section class="about-me" id="about-me">
-            <div class="left-section">
-                <h4>Hi, I am</h1>
-                <h1>Jay Aldwyn Prado, a web developer student based in Baguio City</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quas corrupti quasi deleniti culpa quos quam libero voluptatum aliquam eos.</p>
+            <div class="details">
+              <h5>Hi, I am</h5>
+              <h1 style="color: yellow">Jay Aldrin</h1>
+              <p>A web developer student based in Baguio City.</p>
             </div>
-            <div class="right-section">
-                <img src="img/albergt.jpg" alt="">
-            </div>
-        </section>
+          </section>
 
         <section class="education" id="education">
-            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, non facilis. Sunt autem minus iste animi, asperiores labore nesciunt nihil. Hic odit itaque non illo maxime, molestiae ipsum laboriosam minima.</h1>
+            <div id="education-wrap">
+                <h2>Education Background</h2>
+                <div class="education-item">
+                    <p><strong>Degree:</strong> Bachelor of Science in Information Technology</p>
+                    <p><strong>University:</strong> University of the Cordilleras</p>
+                    <p><strong>Year:</strong> 2021-Present</p>
+                </div>
+
+                <div class="education-item">
+                    <p><strong>Degree:</strong> Senior High</p>
+                    <p><strong>University:</strong> Saint Mary's University</p>
+                    <p><strong>Graduation Year:</strong> 2020</p>
+                </div>
+
+                <div class="education-item">
+                    <p><strong>Degree:</strong> Junior High</p>
+                    <p><strong>School:</strong> Aritao National High School</p>
+                    <p><strong>Graduation Year:</strong> 2019</p>
+                </div>
+
+                <div class="education-item">
+                    <p><strong>Degree:</strong> Elementary</p>
+                    <p><strong>School:</strong> Santiago North Central School</p>
+                    <p><strong>Graduation Year:</strong> 2015</p>
+                </div>
+
+                <!-- Add more education items as needed -->
+            </div>
         </section>
 
         <section class="skills" id="skills">
-            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, non facilis. Sunt autem minus iste animi, asperiores labore nesciunt nihil. Hic odit itaque non illo maxime, molestiae ipsum laboriosam minima.</h1>
+                <h2 class="section-title">Skills</h2>
+                <div class="skill-wrap">
+                    <div class="skillset-left">
+                        <h3 class="skillset-title">Frontend</h3>
+                        <ul>
+                            <li class="skills-list-item">HTML5</li>
+                            <li class="skills-list-item">CSS3</li>
+                            <li class="skills-list-item">JavaScript</li>
+                            <li class="skills-list-item">Python</li>
+                        </ul>
+                    </div>
+                    <div class="skillset-right">
+                        <h3 class="skillset-title">Backend</h3>
+                        <div class="skill-list">
+                        <ul class="skills-list">
+                            <li class="skills-list-item">PHP</li>
+                            <li class="skills-list-item">MySQL</li>
+                            <li class="skills-list-item">MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
         </section>
 
         <section class="project" id="project">
@@ -45,6 +93,5 @@
             <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, non facilis. Sunt autem minus iste animi, asperiores labore nesciunt nihil. Hic odit itaque non illo maxime, molestiae ipsum laboriosam minima.</h1>
         </section>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>

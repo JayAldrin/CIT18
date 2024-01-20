@@ -115,10 +115,20 @@ section {
 .skillset-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: aliceblue;
-    height: 30rem;
-    width: 30rem;
+    align-items: center;
+    width: 30%;
+    height: 70vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skillset-left ul {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
 
 .skillset-title {
@@ -131,7 +141,83 @@ section {
 }
 
 .skills-list-item {
-    font-size: 1.2em;
+    padding-top: 40px;
+    font-size: 30px;
     margin-bottom: 8px;
     color: #000000;
+}
+
+.skillset-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 70vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skillset-right ul {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+#project {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.project-wrap {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    width: 30%;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px; /* Optional: Add border radius for a rounded appearance */
+}
+
+.all-image {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13rem;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 16px;
 }
